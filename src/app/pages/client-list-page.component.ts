@@ -7,5 +7,8 @@ import { Component } from "@angular/core";
 export class ClientListPage {
 
     clientePremium = true
+    items = ['teste']
+    teste = 'teste'
+    clients = ['Client 1','cliente 2']
 
 }

@@ -1,8 +1,8 @@
-<p>Essa é a primeira pagina de clientes</p>
+<p>Essa é a primeira página de clientes</p>
 
-
-<div *ngIf="clientePremium" >
-    <h1>Você é um cliente premium tem acesso a informação diferenciadas</h1>
-
-
+<div *ngIf="clientePremium">
+    <h1>Você é um cliente premium e tem acesso a informações diferenciadas</h1>
+    <ul>
+        <li *ngFor="let client of clients">{{client}}</li>
+    </ul>
 </div>
